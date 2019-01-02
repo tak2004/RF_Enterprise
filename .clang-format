@@ -1,0 +1,16 @@
+---
+BasedOnStyle: Chromium
+AccessModifierOffset: '-2'
+BreakBeforeBraces: Allman
+ColumnLimit: '80'
+ConstructorInitializerIndentWidth: '0'
+Cpp11BracedListStyle: 'true'
+Language: Cpp
+PenaltyReturnTypeOnItsOwnLine: '0'
+SpaceBeforeParens: Never
+Standard: Cpp11
+TabWidth: '2'
+UseTab: Never
+SortIncludes: false
+
+...

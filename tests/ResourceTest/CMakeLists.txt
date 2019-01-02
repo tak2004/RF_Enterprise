@@ -1,0 +1,6 @@
+AddSourceDirectoryRecursive(filelist "src" "Source")
+set(RFECS_RESOURCETEST_FILES ${filelist})
+Generate(EXECUTABLE RFECS_RESOURCETEST ResourceTest "Tests")
+target_include_directories(ResourceTest PRIVATE src/)
+AddDependency(RFECS_RESOURCETEST RadonFastEntityComponentSystem RadonFramework)
+Finalize(RFECS_RESOURCETEST)
